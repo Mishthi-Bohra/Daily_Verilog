@@ -29,3 +29,11 @@ Picks between two inputs (`I0` and `I1`) using select line `S` for output `Y`.
 Checks a 4-bit input and tells if the number is prime or even.
 
 **[RTL Code](RTL/Prime_Even_4bit.v)** | **[Testbench](TESTBENCH/Prime_Even_4bit_tb.v)**
+
+---
+
+### 5. 4-Bit Ripple Carry Adder
+Adds two 4-bit numbers (`A` and `B`) by chaining four Full Adders together to produce a 4-bit sum (`S`) and carry-out (`Cout`).
+
+**[RTL Code](RTL/Ripple_Adder_4Bit.v)** | **[Testbench](TESTBENCH/Ripple_Adder_4Bit_tb.v)**
+
