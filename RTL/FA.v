@@ -30,6 +30,6 @@ wire S, Cout ;
 
 //Code
 assign S=A^B^C;
-assign Cout= (A&B) | (A&C) | (C&B)
+assign Cout= (A&B) | (A&C) | (C&B) ;
 
 endmodule
